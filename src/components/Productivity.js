@@ -19,11 +19,12 @@ import tenthTech from '../assets/tenthTech.png';
 
 const Productivity = () => {
   return (
-    <div className='bg-[#1C1C1C] pt-10 px-20 flex flex-col justify-center items-center text-center'>
+    <div className='bg-[#1C1C1C] pt-10 px-20 flex flex-col'>
+    <div className='flex flex-col justify-start items-start'>
         <Heading emoji={"🤩"} first={"and more..."} second={"Explore an array of features that elevate your  "} firstSpan={"Productivity"} secondSpan={"to new heights"} third={"Discover the tools that will revolutionize the way you manage and optimize your operations"} color={"text-white"} bannerWidth={"w-200px"}/>
-        
+      </div>
         {/* CARDS */}
-        <div className='flex lg:flex-row flex-col gap-10 mt-10 justify-center items-center'>
+        <div className='flex lg:flex-row flex-col gap-10 mt-10 justify-between items-center'>
             <ProductivityCard image={firstLogo} heading={"Cross-Platform Compatibility"} para={"Enjoy the flexibility of cross-platform compatibility. Our product works seamlessly across desktop, web, and mobile devices, allowing you to work from your preferred device."}/>
 
             <ProductivityCard image={secondLogo} heading={"Stay Informed with Essential Notifications"} para={"Automate support from first customer contact to closing the ticket. Drastically improve time to resolution.Automate support"}/>
@@ -42,7 +43,7 @@ const Productivity = () => {
           <img src={fifthTech} alt="logo" className='ml-5'/>
         </div>
 
-      <div className='flex justify-center items-center flex-col mt-[150px]'>
+      <div className='flex justify-between items-center flex-col mt-[150px] text-center'>
       <img src={all} alt="all" className='mb-10 lg:hidden block'/>
         <Heading emoji={"🛠️"} first={"integrations"} second={"Enable"} firstSpan={"integration"} secondSpan={"with other popular tools and platforms"} third={"Seamlessly connect and amplify your workflow by enabling integration with a diverse array of widely-used tools and platforms."} color={"text-white"} bannerWidth={"w-200px"}/>
         

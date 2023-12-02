@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Pricing from './components/Pricing';
 import Productivity from './components/Productivity';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Productivity />
       <Accordian />
       <Pricing />
+      <Testimonials />
     </>
   );
 }
