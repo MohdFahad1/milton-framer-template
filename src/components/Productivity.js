@@ -46,7 +46,7 @@ const Productivity = () => {
       <img src={all} alt="all" className='mb-10 lg:hidden block'/>
         <Heading emoji={"🛠️"} first={"integrations"} second={"Enable"} firstSpan={"integration"} secondSpan={"with other popular tools and platforms"} third={"Seamlessly connect and amplify your workflow by enabling integration with a diverse array of widely-used tools and platforms."} color={"text-white"} bannerWidth={"w-200px"}/>
         
-        <img src={filter} alt="filter" className='mt-10 h-[300px]'/>
+        <img src={filter} alt="filter" className='mt-10 lg:h-[300px] h-[170px]'/>
         </div>
 
         <div className='mt-20 lg:flex flex-col hidden gap-5'>
