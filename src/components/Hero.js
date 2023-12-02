@@ -2,6 +2,7 @@ import React from 'react';
 import { FaPlayCircle } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
 import banner from '../assets/hero-banner.png';
+import Heading from './common/Heading';
 
 const Hero = () => {
   return (
@@ -9,11 +10,7 @@ const Hero = () => {
 
     {/* text block */}
         <div className='flex flex-col justify-center items-center text-center lg:pt-0 pt-10'>
-          <p className="uppercase text-sm text-[#8247FF] font-medium py-1 px-4 border-[1px] rounded-lg bg-white">👋 welcome to mangae wise!</p>
-
-          <h1 className='lg:text-7xl text-5xl font-bold lg:w-[971px] w-auto my-8'>Empower your business with <span className='text-[#FE8162]'>Strategic</span> insights</h1>
-
-          <p className='text-xl font-medium text-[#767575] lg:w-[680px] w-auto px-3'>Powerful management platform designed to streamline your business operations, boost productivity, and drive success</p>
+          <Heading emoji={"👋"} first={"welcome to mangae wise!"} second={"Empower your business with"} firstSpan={"Strategic"} secondSpan={"insights"} third={"Powerful management platform designed to streamline your business operations, boost productivity, and drive success"}/>
 
           {/* buttons */}
           <div className='flex lg:flex-row flex-col gap-10 mt-8'>
