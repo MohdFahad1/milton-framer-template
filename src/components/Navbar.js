@@ -16,10 +16,10 @@ const Navbar = () => {
 
       {/* Quick Links */}
         <ul className='flex gap-10'>
-          <li className='cursor-pointer hover:text-purple-700 text-lg font-medium duration-300'>Features</li>
-          <li className='cursor-pointer hover:text-purple-700 text-lg font-medium duration-300'>FAQ</li>
-          <li className='cursor-pointer hover:text-purple-700 text-lg font-medium duration-300'>Pricing</li>
-          <li className='cursor-pointer hover:text-purple-700 text-lg font-medium duration-300'>Testimonials</li>
+          <li className='cursor-pointer hover:text-[#8247FF] text-lg font-medium duration-300'>Features</li>
+          <li className='cursor-pointer hover:text-[#8247FF] text-lg font-medium duration-300'>FAQ</li>
+          <li className='cursor-pointer hover:text-[#8247FF] text-lg font-medium duration-300'>Pricing</li>
+          <li className='cursor-pointer hover:text-[#8247FF] text-lg font-medium duration-300'>Testimonials</li>
         </ul>
 
       {/* Button */}
