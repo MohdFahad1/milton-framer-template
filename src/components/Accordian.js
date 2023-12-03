@@ -4,7 +4,7 @@ import AccordianItem from './AccordianItem';
 
 
 const Accordian = () => {
-  
+
   const [open, setOpen] = useState(false);
 
   const toggle = (id) => {
@@ -48,7 +48,7 @@ const Accordian = () => {
         <Heading emoji={"🙋‍♀️"} first={"FAQ"} second={"Need "} firstSpan={"Answers?"} third={"Check out our most commonly asked questions below to find the information you need."}/>
         </div>
 
-        <div className='lg:mt-0 mt-10 lg:w-1/2 w-auto'>
+        <div className='lg:mt-0 mt-10 lg:w-1/2 w-auto' data-aos="fade-up" data-aos-duration="1000">
           {data.map((item, id) => (
             <AccordianItem key={id} open={id === open} ques={item.ques} ans={item.ans} toggle={() => toggle(id)}/>
           ))}

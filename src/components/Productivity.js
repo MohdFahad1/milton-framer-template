@@ -18,6 +18,7 @@ import ninthTech from '../assets/ninthTech.png';
 import tenthTech from '../assets/tenthTech.png';
 
 const Productivity = () => {
+
   return (
     <div className='bg-[#1C1C1C] pt-10 lg:px-20 px-5 flex flex-col'>
     <div className='flex flex-col justify-start items-start'>
@@ -27,7 +28,7 @@ const Productivity = () => {
         <div className='flex lg:flex-row flex-col gap-10 mt-10 justify-between items-center'>
             <ProductivityCard image={firstLogo} heading={"Cross-Platform Compatibility"} para={"Enjoy the flexibility of cross-platform compatibility. Our product works seamlessly across desktop, web, and mobile devices, allowing you to work from your preferred device."}/>
 
-            <ProductivityCard image={secondLogo} heading={"Stay Informed with Essential Notifications"} para={"Automate support from first customer contact to closing the ticket. Drastically improve time to resolution.Automate support"}/>
+            <ProductivityCard image={secondLogo} heading={"Stay Informed with Essential Notifications"} para={"Automate support from first customer contact to closing the ticket. Drastically improve time to resolution.Automate support"} />
 
             <ProductivityCard image={thirdLogo} heading={"Secure Data Encryption at all times"} para={"Trust in our robust data encryption to keep your sensitive information safe and secure. Rest easy knowing your data is protected at all times."}/>
 
@@ -47,7 +48,7 @@ const Productivity = () => {
       <img src={all} alt="all" className='mb-10 lg:hidden block'/>
         <Heading emoji={"🛠️"} first={"integrations"} second={"Enable"} firstSpan={"integration"} secondSpan={"with other popular tools and platforms"} third={"Seamlessly connect and amplify your workflow by enabling integration with a diverse array of widely-used tools and platforms."} color={"text-white"} bannerWidth={"w-200px"}/>
         
-        <img src={filter} alt="filter" className='mt-10 lg:h-[300px] h-[170px]'/>
+        <img src={filter} alt="filter" className='mt-10 lg:h-[300px] h-[170px]' data-aos="fade-up" data-aos-duration="1000"/>
         </div>
 
         <div className='mt-20 lg:flex flex-col hidden gap-5'>

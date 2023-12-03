@@ -2,7 +2,7 @@ import React from 'react'
 
 const PricingCard = ({ bgColor, textColor, first, price, firstLine, secondLine, thirdLine, fourthLine, margin }) => {
   return (
-    <div className={`${bgColor} flex flex-col justify-start items-start  h-[400px] w-[330px] p-5 rounded-2xl ${margin}`}>
+    <div className={`${bgColor} flex flex-col justify-start items-start  h-[400px] w-[330px] p-5 rounded-2xl ${margin}`} data-aos="fade-up" data-aos-duration="1000">
         <div>
             <div className='flex'>
                 <h1 className='text-[#FE8162] font-semibold px-4  rounded-2xl bg-white uppercase'>{first}</h1>

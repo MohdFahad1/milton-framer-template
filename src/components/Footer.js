@@ -9,8 +9,8 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className='bg-[#FDF2EC] lg:px-20 px-5 pt-10 py-5'>
-    <div className='bg-white p-10 rounded-2xl flex lg:flex-row flex-col justify-between'>
-        <div >
+    <div className='bg-white p-10 rounded-2xl flex lg:flex-row flex-col justify-between' data-aos="flip-up" data-aos-duration="1000">
+        <div>
             <div className='flex flex-col justify-start items-start'>
                 <Heading emoji={"👋"} first={"Don't miss out"} second={"Unleash your "} firstSpan={"Potential"} secondSpan={"with us"} third={"Join our community of ambitious individuals and organizations eager to make a difference."} width={"w-[350px]"}/>
             </div>

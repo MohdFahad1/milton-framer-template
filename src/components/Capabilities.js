@@ -7,7 +7,9 @@ import third from '../assets/third.png';
 import fourth from '../assets/fourth.png';
 import fifth from '../assets/fifth.png';
 
+
 const Capabilities = () => {
+
   return (
     <div className='py-20 flex flex-col justify-center items-center text-center lg:px-8 px-5'>
 
@@ -19,8 +21,8 @@ const Capabilities = () => {
 
         {/* 2 Cards */}
             <div className='flex lg:flex-row flex-col lg:gap-20 gap-10 justify-center items-center'>
-                <img src={first} alt="first" className='lg:h-[450px] lg:w-[558px] h-[300px] w-[372px]'/>
-                <Card image={second} height={"h-[450px]"} width={"lg:w-[558px] w-[350px]"} heading={"Smart Task Management"} para={"Say goodbye to chaos with our smart task management system"}/>
+                <img src={first} alt="first" className='lg:h-[450px] lg:w-[558px] h-[300px] w-[372px]' data-aos="fade-up" data-aos-duration="1000"/>
+                <Card image={second} height={"h-[450px]"} width={"lg:w-[558px] w-[350px]"} heading={"Smart Task Management"} para={"Say goodbye to chaos with our smart task management system"}  data-aos="fade-up" data-aos-duration="1200"/>
             </div>
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProductivityCard = ({ image, heading, para }) => {
   return (
-    <div className='rounded-2xl bg-[#212121] flex flex-col items-center p-10 h-[400px] w-[350px] justify-around'>
+    <div className='rounded-2xl bg-[#212121] flex flex-col items-center p-10 h-[400px] w-[350px] justify-around' data-aos="fade-up" data-aos-duration="1000">
         <img src={image} alt={heading} />
         <div>
             <h1 className="text-white text-xl font-bold">{heading}</h1>
