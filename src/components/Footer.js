@@ -8,7 +8,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='bg-[#FDF2EC] px-20 pt-10 py-5'>
+    <div className='bg-[#FDF2EC] lg:px-20 px-5 pt-10 py-5'>
     <div className='bg-white p-10 rounded-2xl flex lg:flex-row flex-col justify-between'>
         <div >
             <div className='flex flex-col justify-start items-start'>

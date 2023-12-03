@@ -4,7 +4,7 @@ import PricingCard from './common/PricingCard'
 
 const Pricing = () => {
   return (
-    <div className='flex flex-col justify-center items-center text-center py-10 px-20'>
+    <div className='flex flex-col justify-center items-center text-center py-10 lg:px-20 px-5'>
         <Heading emoji={`💲`} first={"Start your ideal"} firstSpan={"Pricing"} secondSpan={"plan"} third={"At Manage Wise, we believe in providing you with pricing plans that adapt to your unique needs."}/>
 
         <div className='flex lg:flex-row flex-col gap-5 mt-10'>

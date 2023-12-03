@@ -19,7 +19,7 @@ import tenthTech from '../assets/tenthTech.png';
 
 const Productivity = () => {
   return (
-    <div className='bg-[#1C1C1C] pt-10 px-20 flex flex-col'>
+    <div className='bg-[#1C1C1C] pt-10 lg:px-20 px-5 flex flex-col'>
     <div className='flex flex-col justify-start items-start'>
         <Heading emoji={"🤩"} first={"and more..."} second={"Explore an array of features that elevate your  "} firstSpan={"Productivity"} secondSpan={"to new heights"} third={"Discover the tools that will revolutionize the way you manage and optimize your operations"} color={"text-white"} bannerWidth={"w-200px"}/>
       </div>

@@ -43,7 +43,7 @@ const Accordian = () => {
   ]
 
   return (
-    <div className='flex lg:flex-row flex-col justify-between items-center py-14 px-20'>
+    <div className='flex lg:flex-row flex-col justify-between items-center py-14 lg:px-20 px-5'>
         <div className='flex flex-col justify-start items-start lg:w-1/2 w-auto'>
         <Heading emoji={"🙋‍♀️"} first={"FAQ"} second={"Need "} firstSpan={"Answers?"} third={"Check out our most commonly asked questions below to find the information you need."}/>
         </div>

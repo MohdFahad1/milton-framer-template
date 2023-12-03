@@ -9,7 +9,7 @@ import fifth from '../assets/fifth.png';
 
 const Capabilities = () => {
   return (
-    <div className='py-20 flex flex-col justify-center items-center text-center px-8'>
+    <div className='py-20 flex flex-col justify-center items-center text-center lg:px-8 px-5'>
 
     {/* heading section */}
         <Heading emoji={"🔥"} first={"PREMIER FEATURES"} second={"Discover our product's"} firstSpan={"Capabilities"} secondSpan={""} third={"Don't settle for mediocrity - embrace the future of management with Manage Wise."}/>
