@@ -10,7 +10,7 @@ const Hero = () => {
   AOS.init();
 
   return (
-    <div className='bg-[#FDF2EC] h-auto flex flex-col items-center justify-center py-20'>
+    <div className='bg-[#FDF2EC] h-auto flex flex-col items-center justify-center py-20 px-5'>
 
     {/* text block */}
         <div className='flex flex-col justify-center items-center text-center lg:pt-0 pt-10' data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
