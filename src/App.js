@@ -1,6 +1,7 @@
 import './App.css';
 import Accordian from './components/Accordian';
 import Capabilities from './components/Capabilities';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Pricing from './components/Pricing';
@@ -17,6 +18,7 @@ function App() {
       <Accordian />
       <Pricing />
       <Testimonials />
+      <Footer />
     </>
   );
 }
